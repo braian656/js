@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Robot",sans-serif;
+	background-color: #0d1b2a;
+	color: #1d1d1d;
+}
+
+.container {
+	width: 90%;
+	max-width: 62.5rem;
+	margin: 2.5rem auto 6.25rem auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2.5rem;
+}
+
+.container .pelicula {
+	text-align: center;
+}
+
+.container .pelicula .titulo {
+	font-size: 1rem;
+	color: #ffff;
+	font-weight: 700;
+}
+
+.container .pelicula .poster {
+	width: 100%;
+	margin-bottom: 0.625rem;
+	border-radius: 0.938rem;
+}
+.pag {
+	position: fixed;
+	bottom: 0;
+	background-color: #0077b6;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 1.25rem;
+	padding: 0.625rem;
+}
+
+.pag button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 3.125rem;
+	width: 12.5rem;
+	background-color: #241744;
+	color: #fff;
+	border-radius: 6.25rem;
+	font-family: "Roboto",sans-serif;
+	font-weight: 700;
+	transition: .3s ease all;
+}
+.pag button:hover{
+	background-color: #03045e;
+}
